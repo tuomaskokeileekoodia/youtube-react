@@ -1,5 +1,6 @@
 
 import React, { Component } from 'react';
+import HeaderNav from "./containers/HeaderNav/HeaderNav";
 
 class App extends Component {
   state = {
@@ -18,7 +19,7 @@ class App extends Component {
   render() {
     return (
         <div>
-          <p>Hello...</p>
+          <HeaderNav />
           <button onClick={this.incrementMe}>❤ Likes: {this.state.count} </button>
         </div>
     );

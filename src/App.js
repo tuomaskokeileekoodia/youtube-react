@@ -1,6 +1,6 @@
-
 import React, { Component } from 'react';
 import HeaderNav from "./containers/HeaderNav/HeaderNav";
+import {SideBar} from "./containers/SideBar/SideBar";
 
 class App extends Component {
   state = {
@@ -18,10 +18,11 @@ class App extends Component {
 
   render() {
     return (
-        <div>
+        <React.Fragment>
           <HeaderNav />
-          <button onClick={this.incrementMe}>❤ Likes: {this.state.count} </button>
-        </div>
+          {/*<button onClick={this.incrementMe}>❤ Likes: {this.state.count} </button>*/}
+          <SideBar />
+        </React.Fragment>
     );
   }
 }

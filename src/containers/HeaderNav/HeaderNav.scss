@@ -1,8 +1,10 @@
+@import '../../styles/shared.scss';
+
 .ui.menu.top-menu {
   border: none; /*Remove Semantic UI's bottom border*/
 
   .logo {
-    width: 15rem;
+    width: 18rem;
   }
 
   .nav-container {
@@ -12,7 +14,7 @@
 
     .search-input {
       padding-left: 0;
-      width: 33%;
+      width: 50%;
 
       form {
         width: 100%;

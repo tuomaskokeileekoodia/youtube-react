@@ -3,14 +3,15 @@ import {Image, Menu, Form, Input, Icon} from 'semantic-ui-react';
 import './HeaderNav.scss';
 // import logo from '../../assets/images/MYtube.jpg';
 import lrlogo from '../../assets/images/LRtube.jpg';
-import lauri from '../../assets/images/lauriIso.png';
+import lauripieni from '../../assets/images/lauripieni.png';
 
 export class HeaderNav extends React.Component {
     render() {
         return (
             <Menu borderless className='top-menu' fixed='top'>
+
                 <Menu.Item header className='lauri'>
-                    <Image src={lauri} size='tiny'/>
+                    {/*<Image src={lauripieni} size='tiny'/>*/}
                 </Menu.Item>
 
                 <Menu.Item header className='lrlogo'>
@@ -49,7 +50,7 @@ export class HeaderNav extends React.Component {
                 </Menu.Menu>
 
                 <Menu.Item header className='lauri'>
-                    <Image src={lauri} size='tiny'/>
+                    {/*<Image src={lauripieni} size='tiny'/>*/}
                 </Menu.Item>
 
                 <Menu.Menu className='nav-container'>

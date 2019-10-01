@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
-import HeaderNav from "./containers/HeaderNav/HeaderNav";
-import {SideBar} from "./containers/SideBar/SideBar";
+import React, {Component} from 'react';
+import HeaderNav from './containers/HeaderNav/HeaderNav';
+import {SideBar} from './containers/SideBar/SideBar';
+import {Home} from './containers/Home/Home';
+// import './Home.scss';
 
 class App extends Component {
   state = {
@@ -22,6 +24,7 @@ class App extends Component {
           <HeaderNav />
           {/*<button onClick={this.incrementMe}>❤ Likes: {this.state.count} </button>*/}
           <SideBar />
+          <Home/>
         </React.Fragment>
     );
   }

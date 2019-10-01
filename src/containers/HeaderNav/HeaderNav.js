@@ -6,12 +6,25 @@ import lrlogo from '../../assets/images/LRtube.jpg';
 import lauripieni from '../../assets/images/lauripieni.png';
 
 export class HeaderNav extends React.Component {
+
+    state = {
+        count: 0
+    }
+
+
+    //Tykkää-napin lähde: https://medium.com/@elle.westervelt/create-a-basic-like-button-in-react-5274a6991385
+    incrementMe = () => {
+        let newCount = this.state.count +10
+        this.setState({
+            count: newCount
+        })
+    }
     render() {
         return (
             <Menu borderless className='top-menu' fixed='top'>
 
                 <Menu.Item header className='lauri'>
-                    {/*<Image src={lauripieni} size='tiny'/>*/}
+                    <Image src={lauripieni} size='tiny'/>
                 </Menu.Item>
 
                 <Menu.Item header className='lrlogo'>
@@ -22,7 +35,7 @@ export class HeaderNav extends React.Component {
                     <Menu.Item className='search-input'>
                         <Form>
                             <Form.Field>
-                                <Input placeholder='Search'
+                                <Input placeholder='Search for Lauri'
                                        size='small'
                                        action='Go Lauri'
                                 />
@@ -30,6 +43,8 @@ export class HeaderNav extends React.Component {
                         </Form>
                     </Menu.Item>
                 </Menu.Menu>
+
+                <button onClick={this.incrementMe}>❤ Likes: {this.state.count} </button>
 
                 <Menu.Menu position='right'>
                     <Menu.Item>
@@ -50,7 +65,7 @@ export class HeaderNav extends React.Component {
                 </Menu.Menu>
 
                 <Menu.Item header className='lauri'>
-                    {/*<Image src={lauripieni} size='tiny'/>*/}
+                    <Image src={lauripieni} size='tiny'/>
                 </Menu.Item>
 
                 <Menu.Menu className='nav-container'>

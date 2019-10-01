@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0d021fb-da0d-4622-8d5e-5fe797bc87aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/shared.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/shared.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Home.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,13 +19,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.js">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="52" />
+            <state>
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#174#226#0" expanded="true" />
+                <element signature="e#1#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,36 +43,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="289">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
-                <element signature="e#1#27#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="68" column="28" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#174#226#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/VideoGrid/VideoGridHeader/__tests__/VideoGridHeader.unit.test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -84,6 +84,27 @@
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/AppLayout/AppLayout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/AppLayout/AppLayout.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -101,18 +122,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/VideoGrid/VideoGridHeader/VideoGridHeader.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -120,15 +129,6 @@
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/VideoGrid/VideoGridHeader/VideoGridHeader.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -176,20 +176,22 @@
         <option value="$PROJECT_DIR$/src/containers/SideBar/__tests__/SideBar.unit.test.js" />
         <option value="$PROJECT_DIR$/src/containers/SideBar/SideBarFooter/__tests__/SideBarFooter.unit.test.js" />
         <option value="$PROJECT_DIR$/src/containers/VideoPreview/VideoPreview.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/styles/shared.scss" />
         <option value="$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.scss" />
-        <option value="$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.js" />
         <option value="$PROJECT_DIR$/src/components/VideoPreview/__tests__/VideoPreview.unit.test.js" />
         <option value="$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.scss" />
-        <option value="$PROJECT_DIR$/src/containers/Home/Home.scss" />
         <option value="$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.js" />
         <option value="$PROJECT_DIR$/src/components/VideoGrid/VideoGridHeader/VideoGridHeader.js" />
         <option value="$PROJECT_DIR$/src/components/VideoGrid/VideoGridHeader/VideoGridHeader.scss" />
         <option value="$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.js" />
-        <option value="$PROJECT_DIR$/src/containers/Home/Home.js" />
         <option value="$PROJECT_DIR$/src/components/VideoGrid/__tests__/VideoGrid.unit.test.js" />
         <option value="$PROJECT_DIR$/src/components/VideoGrid/VideoGridHeader/__tests__/VideoGridHeader.unit.test.js" />
+        <option value="$PROJECT_DIR$/src/components/AppLayout/AppLayout.js" />
+        <option value="$PROJECT_DIR$/src/components/AppLayout/AppLayout.scss" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/containers/Home/Home.js" />
+        <option value="$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.js" />
+        <option value="$PROJECT_DIR$/src/containers/Home/Home.scss" />
       </list>
     </option>
   </component>
@@ -240,38 +242,6 @@
               <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="VideoGrid" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="VideoGrid" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="VideoGrid" type="462c0819:PsiDirectoryNode" />
-              <item name="VideoGridHeader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="VideoGrid" type="462c0819:PsiDirectoryNode" />
-              <item name="VideoGridHeader" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="VideoPreview" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -311,7 +281,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/VideoGrid/VideoGridHeader" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/AppLayout" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -358,12 +328,12 @@
       <option name="presentableId" value="Default" />
       <updated>1569586937130</updated>
       <workItem from="1569586938986" duration="2780000" />
-      <workItem from="1569824162600" duration="28047000" />
+      <workItem from="1569824162600" duration="29214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30827000" />
+    <option name="totallyTimeSpent" value="31994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2873" y="0" width="974" height="1047" extended-state="0" />
@@ -650,16 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/images/lauriIso.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -697,24 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#174#226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -746,16 +688,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/VideoGrid/__tests__/__snapshots__/VideoPreview.unit.test.js.snap">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/VideoGrid/__tests__/VideoGrid.unit.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -783,6 +715,60 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AppLayout/AppLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AppLayout/AppLayout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#1#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="68" column="28" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#174#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
         </state>
       </provider>
     </entry>

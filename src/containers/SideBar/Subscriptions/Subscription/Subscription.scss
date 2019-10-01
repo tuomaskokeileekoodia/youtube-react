@@ -1,0 +1,20 @@
+@import '../../../../styles/shared.scss';
+
+.subscription {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .subscription-item:hover {
+    background: #ebebeb;
+  }
+
+  i.icon {
+    color: $red;
+  }
+
+  .new-videos-count {
+    color: $grey;
+  }
+}

@@ -4,6 +4,8 @@ import {Divider, Menu, Image} from 'semantic-ui-react';
 import './SideBar.scss';
 import lauri from "../../assets/images/lauriIso.png";
 import {SideBarHeader} from "./SideBarHeader/SideBarHeader";
+import {Subscriptions} from "./Subscriptions/Subscriptions";
+import {SideBarFooter} from "./SideBarFooter/SideBarFooter";
 
 export class SideBar extends React.Component {
     render() {
@@ -12,9 +14,9 @@ export class SideBar extends React.Component {
                 <SideBarItem highlight={true}  label='Home' icon='home'/>
                 <SideBarItem highlight={true}  label='Trending' icon='fire'/>
 
-                <Menu.Item header className='lauri'>
-                    <Image src={lauri} size='tiny'/>
-                </Menu.Item>
+                {/*<Menu.Item header className='lauri'>*/}
+                {/*    <Image src={lauri} size='tiny'/>*/}
+                {/*</Menu.Item>*/}
                 <Divider/>
 
                 <SideBarHeader title='Library'/>
@@ -24,6 +26,8 @@ export class SideBar extends React.Component {
                 <SideBarItem highlight={true}  label='Liked videos' icon='thumbs up'/>
                 <Divider/>
 
+                <Subscriptions />
+
                 <SideBarHeader title='More of Lauri'/>
                 <SideBarItem label='Movies and Shows' icon='film'/>
                 <Divider/>
@@ -31,6 +35,7 @@ export class SideBar extends React.Component {
                 <SideBarItem label='Help' icon='help circle'/>
                 <SideBarItem label='Send feedback' icon='comment'/>
                 <Divider/>
+                <SideBarFooter/>
             </Menu>
         );
     }
